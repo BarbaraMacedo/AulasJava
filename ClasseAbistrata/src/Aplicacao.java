@@ -3,7 +3,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		// Item item = new item();  Obs: Não se pode instânciar um objeto abstrato;
+		// Item item = new item();  Obs: Não se pode instânciar um objeto abstrato; / Classes abstratas não se pode instanciar
 		
 		Item item = new Cogumelo();
 		item.pegar();
@@ -14,4 +14,5 @@ public class Aplicacao {
 		item = new Diamante();
 		item.pegar();
 	}
+	
 }
