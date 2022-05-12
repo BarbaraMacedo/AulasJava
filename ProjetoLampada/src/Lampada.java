@@ -1,22 +1,22 @@
 
 public class Lampada {
 	
-	private boolean ligada;
+	private boolean ligada;  //Atributos / Privado (Somente os métodos da classe podem acessar)
 	
 	
-	public void ligar() {
+	public void ligar() {   //Métodos 
 	
 		ligada = true;
 		
 	}
 	
-	public void desligar() {
+	public void desligar() { //Métodos
 	
 		ligada = false;
 		
 	}
 	
-	public void imprimir() {
+	public void imprimir() {      // Condição (Se/Senao) 
 
 		if(ligada == true) {
 			System.out.println("Lampada ligada");
