@@ -1,5 +1,5 @@
 
-public class Aplicacao {
+public class Aplicacao {     //Sempre Pública
 
 	public static void main(String[] args) {
 
