@@ -1,9 +1,9 @@
 
-public class Aplicacao {     //Sempre Pública
+public class Aplicacao { 
 
 	public static void main(String[] args) {
 
-		Rota rota = new rota();
+		Rota rota = new rota();  //Instância / novo objeto 
 		Ferrari ferrari = new Ferrari();
 		rota.ir(ferrari);
 		System.out.println();
@@ -14,7 +14,7 @@ public class Aplicacao {     //Sempre Pública
 		Vendedor vendedor = new Vendedor();
 		Apartamento apartamento = new Apartamento();
 		
-		vendedor.mostrarPreco(apartamento);
+		vendedor.mostrarPreco(apartamento);  //Mostrar resultado
 		vendedor.mostrarPreco(ferrari);
 	}
 
