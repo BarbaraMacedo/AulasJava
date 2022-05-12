@@ -1,7 +1,7 @@
 package modificadorAcesso;
 public class ContaBancaria {
 	
-	private int numConta;
+	private int numConta;  //Atributos
 	private boolean ativo;
 	private double saldo;
 	
@@ -11,7 +11,7 @@ public class ContaBancaria {
 	}
 	
 
-	public ContaBancaria(boolean ativo, double saldo) {
+	public ContaBancaria(boolean ativo, double saldo) {   //Métodos
 		this.ativo = ativo;
 		this.saldo = saldo;
 	}
