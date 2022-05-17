@@ -41,28 +41,28 @@ public class main {
 		
 		System.out.println(cliente2);
 		
-//		cliente1 = cliente2;
+//		cliente1 = cliente2;   cliente 1 recebe os dados de cliente 2
 		
-		if(cliente1.getNome() == cliente2.getNome()) { //compara um atributo sÛ (nome)
-			System.out.println("Os nomes s„o iguais");
+		if(cliente1.getNome() == cliente2.getNome()) { //compara um atributo s√≥ (nome)
+			System.out.println("Os nomes s√£o iguais");
 		}
 		else {
-			System.out.println("Os nomes s„o diferentes");
+			System.out.println("Os nomes s√£o diferentes");
 		}
 		
 		if(cliente1 == cliente2) {
-			System.out.println("Os objetos s„o iguais");
+			System.out.println("Os objetos s√£o iguais");
 		}
 		else {
-			System.out.println("Os objetos s„o diferentes");
+			System.out.println("Os objetos s√£o diferentes");
 		}
 		
 		
 		if(cliente1.equals(cliente2)) {
-			System.out.println("Os atributos dos objetos s„o iguais");
+			System.out.println("Os atributos dos objetos s√£o iguais");
 		}
 		else {
-			System.out.println("Os atributos dos objetos s„o diferentes");
+			System.out.println("Os atributos dos objetos s√£o diferentes");
 		}
 	}
 
