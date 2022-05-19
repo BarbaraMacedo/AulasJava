@@ -3,7 +3,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 
-		Rota rota = new rota();  //Inst√¢ncia / novo objeto 
+		Rota rota = new Rota();  //Inst‚ncia / novo objeto 
 		Ferrari ferrari = new Ferrari();
 		rota.ir(ferrari);
 		System.out.println();
@@ -12,9 +12,9 @@ public class Aplicacao {
 		rota.ir(fusca);
 		
 		Vendedor vendedor = new Vendedor();
-		Apartamento apartamento = new Apartamento();
+//		Apartamento apartamento = new Apartamento();
 		
-		vendedor.mostrarPreco(apartamento);  //Mostrar resultado
+//		vendedor.mostrarPreco(apartamento);  //Mostrar resultado
 		vendedor.mostrarPreco(ferrari);
 	}
 
