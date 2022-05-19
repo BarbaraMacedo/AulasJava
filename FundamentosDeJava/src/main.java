@@ -34,31 +34,33 @@ public class main {
         //		System.out.println("Indice"+aux2+" = "+numero[aux2]);
         //	}
 			
-				int[] arrayQualquer = new int[5];
+				int[] arrayQualquer = new int[3];
 		
 		    	Object[] arrayObject = new Object[6];
 		
-				arrayObject[0] = 12;
-				arrayObject[1] = "Luizin";
-				arrayObject[2] = 475.594;
+				arrayObject[0] = 12;     //Conjunto de informcoes dependendo do tipo
+				arrayObject[1] = "Bárbara";
+				arrayObject[2] = 13.8;
 				arrayObject[3] = true;
 				arrayObject[5] = arrayQualquer;
 				
-						for (int aux2 = 0; aux2 < arrayObject.length; aux2++) {
+				for (int aux2 = 0; aux2 < arrayObject.length; aux2++) {
 					System.out.println("Indice " + aux2 + " = " + arrayObject[aux2]);
 			}
+				System.out.println();
 
-		//		int[][] arrayBidirecional = new int[5][3];
+				int[][] arrayBidirecional = new int[4][3];
+				
+				arrayBidirecional [0][0] = 8;
+				arrayBidirecional [2][1] = 7;
 
-		//		for (int li = 0; li < arrayBidirecional.length; li++) {
-
-		//			for (int co = 0; co < arrayBidirecional[0].length; co++) {
-		//				System.out.print("Indice [" + li + "]  [" + co+ "] = " + arrayBidirecional[li][co]+" ");
-						
-		//			}
+				for (int linha = 0; linha < arrayBidirecional.length; linha++) {
+					for (int coluna = 0; coluna < arrayBidirecional[0].length; coluna++) {
+						System.out.print("Indice [" + linha + "][" + coluna+ "] = " + arrayBidirecional[linha][coluna]+" ");
+					}
 					
-		//		System.out.println();
-		//		}
+				System.out.println();
+				}
 			}
 
 	}

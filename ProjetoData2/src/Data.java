@@ -3,7 +3,7 @@ public class Data {
 	public static final int FORMATO_12H = 1;
 	public static final int FORMATO_24H = 2;
 	
-	private int dia;
+	private int dia;  //Atributos privados obs: atributos privados so podem ser vistos dentro da mesma classe 
 	private int mes;
 	private int ano;
 	private int hora = -1;
@@ -69,7 +69,7 @@ public class Data {
 		return mes;
 	}
 
-	public void setMes(int mes) {
+	public void setMes(int mes) { //Get: acessores set: modificadores
 		this.mes = mes;
 	}
 

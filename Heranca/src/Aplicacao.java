@@ -1,5 +1,5 @@
 
-public class Aplicacao {
+public class Aplicacao {  //herança: mecanismo onde uma claase pode herdar os recursos de outra classe
 
 	public static void main(String[] args) {
 		

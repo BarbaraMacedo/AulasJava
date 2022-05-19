@@ -1,10 +1,10 @@
 
 public class Carro extends Veiculo{
 
-	private boolean quatroPortas;
+	private boolean quatroPortas;  //atributos
 
 	@Override
-	public void imprimir() {
+	public void imprimir() { //metodos
 		super.imprimir();
 		System.out.println("Tem  4 portas: " + quatroPortas);
 	}

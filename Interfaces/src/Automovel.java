@@ -1,7 +1,7 @@
 
 public interface Automovel { 
-	//Interface não utiliza atributos
-	//Somente pública
+	//Interface nao utiliza atributos
+	//Somente publica
 	
 	void virarEsquerda();   //assinatura
 	void virarDireita();
