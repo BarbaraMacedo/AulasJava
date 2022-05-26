@@ -1,0 +1,4 @@
+[Mouse  [funciona = true, qtdbotoes = 1, tamanho = pequeno] 
+, Mouse  [funciona = true, qtdbotoes = 2, tamanho = médio] 
+, Mouse  [funciona = true, qtdbotoes = 3, tamanho = grande] 
+]
