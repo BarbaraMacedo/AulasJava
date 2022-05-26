@@ -11,10 +11,4 @@ public class Pessoa extends Endereco{
 		this.idade = idade;
 		this.endereco = endereco;
 	}
-	
-	
-	
-	
-	
-	
 }
