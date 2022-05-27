@@ -1,9 +1,9 @@
-package modificadorAcesso;
+package modificadorAcesso; //são usados para definir por quais partes do projetos podem ser vistas
 
 import java.util.Objects;
 
 public class Cliente {
-	private String nome;
+	private String nome; //private: atributos privados / somente a mesma classe e as classes do mesmo pacote podem ver 
 	private int CPF;
 	private int numConta;
 	
@@ -37,7 +37,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return"****************************" + "\nCliente: \nNome = " + nome + "\nCPF = " + CPF + "\nN�mero da Conta = " + numConta + "\n****************************" ;
+		return"****************************" + "\nCliente: \nNome = " + nome + "\nCPF = " + CPF + "\nNúmero da Conta = " + numConta + "\n****************************" ;
 	}
 
 	@Override
