@@ -11,7 +11,7 @@ public class Mouse {
 	
 	public Mouse(String texto) {
 		
-		String[] arrayAuxiliar1 = texto.split(",");
+		String[] arrayAuxiliar1 = texto.split(",");   //split: usado para dividir uma string em varias partes
 		String[] arrayAuxiliar2 = arrayAuxiliar1[0].split("=");
 		this.funciona = arrayAuxiliar2[1].trim();
 		
