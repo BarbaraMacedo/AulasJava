@@ -5,7 +5,7 @@ public class Carro {
 	public String modelo;
 	
 	
-	public void buzinar() {
+	public void buzinar() { //metodos
 		System.out.println("BI BI");
 	}
 	public void imprimir() {
