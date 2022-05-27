@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+import java.io.BufferedReader;  //importados da livraria do java
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
