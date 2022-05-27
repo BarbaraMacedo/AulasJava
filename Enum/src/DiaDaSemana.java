@@ -1,5 +1,5 @@
 
-public enum DiaDaSemana {
+public enum DiaDaSemana { //utilizado para guardar conjuntos de valores constantes(nao podem ser modificados
 	
 	DOMINGO(1),
 	SEGUNDA(2),
