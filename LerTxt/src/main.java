@@ -9,7 +9,7 @@ public class main {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
-		try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt"))){
+		try(BufferedReader reader = new BufferedReader(new FileReader("entrada.txt"))){  //Utilizado para ler dados de um arquivo
 			
 			String line;
 			String string = "";
