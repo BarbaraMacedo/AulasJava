@@ -3,10 +3,10 @@ public class Quadrado implements AreaCalculavel {
 	
 	private int lado;
 
-	@Override
+	@Override    //override: sobrescrita de um metodo da superclasse
 	public void calcularArea() {
 		
-		System.out.println("A area do quadrado é: " + Math.pow(lado, 2));
+		System.out.println("A area do quadrado Ã©: " + Math.pow(lado, 2)); //base elevada ao expoente
 		
 	}
 
