@@ -1,0 +1,6 @@
+Camisa: tamanho = P, cor = preta
+
+Camisa: tamanho = M, cor = vermelha
+
+Camisa: tamanho = G, cor = azul
+
