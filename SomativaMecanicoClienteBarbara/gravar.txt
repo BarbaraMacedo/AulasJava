@@ -1,0 +1,40 @@
+Cliente: Maria, CPF: 27112345
+Valor total a ser pago: 170.0 
+Tipo de servico a ser feito: Vistoria 
+Quantidade de horas de serviço: 2.0
+Valor hora de serviço: 50.0
+Mecanico: João, CPF: 2226310
+Valor da mao de obra: 70.0
+Forma de pagamento: A_VISTA
+ -------------------------------------
+
+Cliente: Mario, CPF: 73543121
+Valor total a ser pago: 170.0 
+Tipo de servico a ser feito: Vistoria 
+Quantidade de horas de serviço: 2.0
+Valor hora de serviço: 50.0
+Mecanico: João, CPF: 2226310
+Valor da mao de obra: 70.0
+Forma de pagamento: CARNE
+ -------------------------------------
+
+Cliente: Julia, CPF: 55451432
+Valor total a ser pago: 230.0 
+Tipo de servico a ser feito: Troca de óleo 
+Quantidade de horas de serviço: 3.0
+Valor hora de serviço: 60.0
+Mecanico: José, CPF: 3563445
+Valor da mao de obra: 50.0
+Forma de pagamento: A_VISTA
+ -------------------------------------
+
+Cliente: Claudio, CPF: 88716783
+Valor total a ser pago: 230.0 
+Tipo de servico a ser feito: Troca de óleo 
+Quantidade de horas de serviço: 3.0
+Valor hora de serviço: 60.0
+Mecanico: José, CPF: 3563445
+Valor da mao de obra: 50.0
+Forma de pagamento: CARTAO_CREDITO
+ -------------------------------------
+
